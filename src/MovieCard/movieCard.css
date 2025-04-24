@@ -1,0 +1,54 @@
+.movie-card_poster{
+    width: 180px;
+    height: 280px;
+}
+
+.movie-card {
+    max-width: 454px;
+    max-height: 281px;
+    display: flex;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+}
+
+.movie-card_header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-card_rating {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgba(233, 209, 0, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-card_title {
+    margin: 0;
+}
+
+.movie-card_description {
+    display: grid;
+    gap: 7px;
+    align-items: start;
+    justify-items: start;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+}
+
+.movie-card_release-date {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(130, 126, 126, 1);
+}
+
+.movie-card_summary {
+    margin: 0;
+}
