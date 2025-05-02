@@ -1,9 +1,10 @@
 import './movieCard.css'
 import { trimDescription } from '../helpers/trimDescription'
+import { dateFormatting } from '../helpers/dateFormatting';
 import {  Tag, Rate } from 'antd';
 import images from './images.png'
 
-export default function MovieCard ({movieTitle, movieDescription, posterPath, releaseDate, voteAverage, dateFormatting}) {
+export default function MovieCard ({movieTitle, movieDescription, posterPath, releaseDate, voteAverage}) {
     const baseUrlImg = `http://image.tmdb.org/t/p/w300${posterPath}`
     return (
       <li className="movie-card">
