@@ -1,13 +1,14 @@
 .movie-list {
-    list-style: none;
-    padding: 20px 32px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 35px;
+  list-style: none;
+  padding: 20px 32px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
 }
 
 @media (max-width: 1024px) {
-    .movie-list {
-        grid-template-columns: 1fr;
-    }
+  .movie-list {
+    grid-template-columns: 1fr;
+  }
 }

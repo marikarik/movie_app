@@ -1,54 +1,88 @@
-.movie-card_poster{
-    width: 180px;
-    height: 280px;
+.movie-card_poster {
+  width: 180px;
+  height: 280px;
 }
 
 .movie-card {
-    max-width: 454px;
-    max-height: 281px;
-    display: flex;
-    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
-    font-size: 12px;
+  max-width: 454px;
+  /* max-width: 600px; */
+  max-height: 281px;
+  display: flex;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  position: relative;
 }
 
-.movie-card_header {
+/* .movie-card_header {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+} */
+.movie-card_header {
+  max-width: 200px;
+}
+.movie-card_rating {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(233, 209, 0, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 7px;
+  top: 7px;
 }
 
-.movie-card_rating {
-    width: 30px;
-    height: 30px;
-    border: 2px solid rgba(233, 209, 0, 1);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.rating_very-low {
+  border: 2px solid #e90000;
+}
+
+.rating_low {
+  border: 2px solid #e97e00;
+}
+
+.rating_average {
+  border: 2px solid #e9d100;
+}
+
+.rating_hight {
+  border: 2px solid #66e900;
 }
 
 .movie-card_title {
-    margin: 0;
+  margin: 0;
 }
 
 .movie-card_description {
-    display: grid;
-    gap: 7px;
-    align-items: start;
-    justify-items: start;
-    text-align: left;
-    padding: 10px 20px 10px 20px;
-    margin: 0;
+  display: grid;
+  gap: 7px;
+  align-items: start;
+  justify-items: start;
+  text-align: left;
+  padding: 10px 20px 10px 20px;
+  margin: 0;
 }
 
 .movie-card_release-date {
-    margin: 0;
-    font-size: 12px;
-    color: rgba(130, 126, 126, 1);
+  margin: 0;
+  font-size: 12px;
+  color: rgba(130, 126, 126, 1);
 }
 
 .movie-card_summary {
-    margin: 0;
+  margin: 0;
+}
+
+.movie-card_genres {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.movie-card_rate {
+  align-self: end;
 }

@@ -54,6 +54,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.myTabs .ant-tabs-nav::before {
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 1px solid #f0f0f0;
+  width: 110px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
