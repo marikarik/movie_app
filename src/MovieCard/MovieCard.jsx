@@ -18,7 +18,7 @@ export default function MovieCard({
 }) {
   const rating = voteAverage.toFixed(1)
   const limitGenres = genreIds.slice(0, 3)
-  const baseUrlImg = `http://image.tmdb.org/t/p/w300${posterPath}`
+  const baseUrlImg = `https://image.tmdb.org/t/p/w300${posterPath}`
   return (
     <li className="movie-card">
       <div className='conteiner'>
