@@ -21,7 +21,9 @@ export default function MovieCard({
   const baseUrlImg = `http://image.tmdb.org/t/p/w300${posterPath}`
   return (
     <li className="movie-card">
-      <img className="movie-card_poster" src={posterPath ? baseUrlImg : images} />
+      <div className='conteiner'>
+        <img className="movie-card_poster" src={posterPath ? baseUrlImg : images} />
+      </div>
       <div className="movie-card_description">
         <div className="movie-card_header">
           <h2 className="movie-card_title">{trimDescription(movieTitle, 20, 5)}</h2>

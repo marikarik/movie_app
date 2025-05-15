@@ -1,11 +1,13 @@
-.movie-card_poster {
+.conteiner, .movie-card_poster {
   width: 180px;
   height: 280px;
+
 }
+
 
 .movie-card {
   max-width: 454px;
-  /* max-width: 600px; */
+  
   max-height: 281px;
   display: flex;
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
@@ -13,14 +15,6 @@
   position: relative;
 }
 
-/* .movie-card_header {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-} */
 .movie-card_header {
   max-width: 200px;
 }
