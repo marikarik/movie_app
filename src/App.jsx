@@ -16,7 +16,7 @@ export default class App extends React.Component {
     dataMovie: [],
     genres: [],
     error: false,
-    querySearch: 'хлеб',
+    querySearch: 'memento',
     queryPage: 1,
     totalResults: 0,
     tab: 'search',
